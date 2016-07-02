@@ -1,19 +1,16 @@
 body { 
-	background-color: #d7caad;
+	background-image: url(../img/dot.png);
 	color: #3d3d3d;
-	font-family: Veranda, Arial, sans-serif;
+	font-family: New Century Schoolbook, serif;
 }
 
 header {
 	background-color: #e5e5e5;
-	background-image: url(../img/background.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	text-shadow: 2px 2px 2px #ff5a00;
+	text-shadow: 1px 1px 0px #3366cc;
 	padding-bottom: 15px;
 	padding-top: 15px;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	min-width: 1000px;
 	max-width: 2048px;
 	width: 80%;
@@ -22,20 +19,21 @@ header {
 	box-shadow: 3px 3px 3px #333333;
 }
 
-h1 { 
-	font-family: Lucida Bright;
+h1, h2, h3, h4, h5, h6 { 
+	font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+h1 {
 	text-align: center;
 }
 
-h4 { 
-	font-family: Rockwell;
-}
-
 a { 
+	font-family: Optima, Segoe, Candara, Calibri, Arial, sans-serif;
 	text-decoration: none;
 	color: #ff3600;
 	font-style: italic;
-	font-weight: bold;
+	font-weight: 100;
+	font-size: 1.25em;
 }
 
 
@@ -52,8 +50,8 @@ main {
 }
 
 footer {
-	font-family: Georgia, Times New Roman, serif;
-	font-size: .75em;
+	font-family: Helvetica Narrow, sans-serif;
+	font-size: .70em;
 	font-style: italic;
 	text-align: center;
 	padding-top: 5px;
@@ -65,8 +63,8 @@ footer {
 	box-shadow: 3px 3px 3px #333333;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 .fb { color: #ff5a00;
@@ -83,10 +81,30 @@ footer {
 
 #wrapper {
 	width: 80%;
-	background-color: #ffffff;
+	background-color: #e5e5e5;
 	min-width: 1000px;
 	max-width: 2048px;
 	box-shadow: 3px 3px 3px #333333;
 	margin-left: auto;
 	margin-right: auto;
+	background-image: url(../img/dotyd.png);
+}
+
+figure {
+	float: left;
+	padding: 10px 10px 10px 10px;
+	background-color: #FFFFFF;
+
+}
+
+figcaption {
+	text-align: center;
+	font-size: italic;
+	font-family: Optima, Segoe, Candara, Calibri, Arial, sans-serif;
+	font-weight: 100;
+	
+}
+
+.clearleft {
+	clear: left;
 }
