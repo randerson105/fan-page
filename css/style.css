@@ -1,16 +1,18 @@
 body { 
-	background-image: url(../img/dot.png);
+	background-color: #4F6D93;
+	background-image: linear-gradient(to bottom, #FFFFFF, #405064);
+	background-repeat: no-repeat;
 	color: #3d3d3d;
-	font-family: New Century Schoolbook, serif;
+	font-family: "New Century Schoolbook, serif";
 }
 
 header {
-	background-color: #e5e5e5;
+	background-image: url(../img/dotyd.png);
 	text-shadow: 1px 1px 0px #3366cc;
 	padding-bottom: 15px;
 	padding-top: 15px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 	min-width: 1000px;
 	max-width: 2048px;
 	width: 80%;
@@ -20,15 +22,16 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 { 
-	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-family: "Comic Sans, Comic Sans MS, cursive";
 }
 
 h1 {
 	text-align: center;
+	text-transform: uppercase;
 }
 
 a { 
-	font-family: Optima, Segoe, Candara, Calibri, Arial, sans-serif;
+	font-family: "Optima, Segoe, Candara, Calibri, Arial, sans-serif";
 	text-decoration: none;
 	color: #ff3600;
 	font-style: italic;
@@ -36,7 +39,9 @@ a {
 	font-size: 1.25em;
 }
 
-
+p {
+	text-indent: 10px;
+}
 ul { 
 	list-style-type: none;
 }
@@ -50,21 +55,22 @@ main {
 }
 
 footer {
-	font-family: Helvetica Narrow, sans-serif;
+	font-family: "Helvetica Narrow, sans-serif";
 	font-size: .70em;
 	font-style: italic;
 	text-align: center;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	background-color: #e5e5e5;
+	background-image: url(../img/dotyd.png);
 	width: 80%;
 	min-width: 1000px;
 	max-width: 2048px;
 	box-shadow: 3px 3px 3px #333333;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	opacity:.8;
 }
 
 .fb { color: #ff5a00;
@@ -82,12 +88,11 @@ footer {
 #wrapper {
 	width: 80%;
 	background-color: #e5e5e5;
-	min-width: 1000px;
+	min-width: 750px;
 	max-width: 2048px;
 	box-shadow: 3px 3px 3px #333333;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url(../img/dotyd.png);
 }
 
 figure {
@@ -99,12 +104,25 @@ figure {
 
 figcaption {
 	text-align: center;
-	font-size: italic;
-	font-family: Optima, Segoe, Candara, Calibri, Arial, sans-serif;
+	font-style: italic;
+	font-family: "Optima, Segoe, Candara, Calibri, Arial, sans-serif";
 	font-weight: 100;
 	
 }
 
 .clearleft {
 	clear: left;
+}
+
+
+#left_col {
+   float:left;
+   width:600px;
+   margin: auto;
+}
+
+#right_col {
+   float:right;
+   width:500px;
+   margin: auto;
 }
